@@ -1,0 +1,17 @@
+/*-----------------------------------------
+	Mixins
+-----------------------------------------*/
+
+//
+@mixin generate-classes($name, $map) {
+
+  @each $accent, $color in $map {
+    .#{$name}-#{$accent}-cl {
+      color: $color;
+    }
+
+    .#{$name}-#{$accent}-bg {
+      background-color: $color;
+    }
+  }
+}
