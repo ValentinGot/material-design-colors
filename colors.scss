@@ -1,9 +1,18 @@
-/*-----------------------------------------
-	Material Design Colors
------------------------------------------*/
+// ================================================================================
+//
+//	Material Design Colors
+//
+// @description Provides quick color palettes for Sass and Less projects
+// @author Valentin GOT
+// @github https://github.com/ValentinGot/material-design-colors
+//
+// ================================================================================
 
-/*  Red
------------------------------------------*/
+// Red
+//-----------------------------------------
+
+// Red
+//---------------------------------------
 
 $red-map: (
   "50"  : #FFEBEE,
@@ -37,8 +46,8 @@ $red-a200-color: map-get($red-map, "a200");
 $red-a400-color: map-get($red-map, "a400");
 $red-a700-color: map-get($red-map, "a700");
 
-/*  Pink
------------------------------------------*/
+// Pink
+//-----------------------------------------
 
 $pink-map: (
   "50"  : #FCE4EC,
@@ -72,8 +81,8 @@ $pink-a200-color: map-get($pink-map, "a200");
 $pink-a400-color: map-get($pink-map, "a400");
 $pink-a700-color: map-get($pink-map, "a700");
 
-/*  Purple
------------------------------------------*/
+// Purple
+//-----------------------------------------
 
 $purple-map: (
   "50"  : #F3E5F5,
@@ -107,8 +116,8 @@ $purple-a200-color: map-get($purple-map, "a200");
 $purple-a400-color: map-get($purple-map, "a400");
 $purple-a700-color: map-get($purple-map, "a700");
 
-/*  Deep Purple
------------------------------------------*/
+// Deep Purple
+//-----------------------------------------
 
 $deep-purple-map: (
   "50"  : #EDE7F6,
@@ -142,8 +151,8 @@ $deep-purple-a200-color: map-get($deep-purple-map, "a200");
 $deep-purple-a400-color: map-get($deep-purple-map, "a400");
 $deep-purple-a700-color: map-get($deep-purple-map, "a700");
 
-/*  Indigo
------------------------------------------*/
+// Indigo
+//-----------------------------------------
 
 $indigo-map: (
   "50"  : #E8EAF6,
@@ -177,8 +186,8 @@ $indigo-a200-color: map-get($indigo-map, "a200");
 $indigo-a400-color: map-get($indigo-map, "a400");
 $indigo-a700-color: map-get($indigo-map, "a700");
 
-/*  Blue
------------------------------------------*/
+// Blue
+//-----------------------------------------
 
 $blue-map: (
   "50"  : #E3F2FD,
@@ -212,8 +221,8 @@ $blue-a200-color: map-get($blue-map, "a200");
 $blue-a400-color: map-get($blue-map, "a400");
 $blue-a700-color: map-get($blue-map, "a700");
 
-/*  Light Blue
------------------------------------------*/
+// Light Blue
+//-----------------------------------------
 
 $light-blue-map: (
   "50"  : #E1F5FE,
@@ -247,8 +256,8 @@ $light-blue-a200-color: map-get($light-blue-map, "a200");
 $light-blue-a400-color: map-get($light-blue-map, "a400");
 $light-blue-a700-color: map-get($light-blue-map, "a700");
 
-/*  Cyan
------------------------------------------*/
+// Cyan
+//-----------------------------------------
 
 $cyan-map: (
   "50"  : #E0F7FA,
@@ -282,8 +291,8 @@ $cyan-a200-color: map-get($cyan-map, "a200");
 $cyan-a400-color: map-get($cyan-map, "a400");
 $cyan-a700-color: map-get($cyan-map, "a700");
 
-/*  Teal
------------------------------------------*/
+// Teal
+//-----------------------------------------
 
 $teal-map: (
   "50"  : #E0F2F1,
@@ -317,8 +326,8 @@ $teal-a200-color: map-get($teal-map, "a200");
 $teal-a400-color: map-get($teal-map, "a400");
 $teal-a700-color: map-get($teal-map, "a700");
 
-/*  Green
------------------------------------------*/
+// Green
+//-----------------------------------------
 
 $green-map: (
   "50"  : #E8F5E9,
@@ -352,8 +361,8 @@ $green-a200-color: map-get($green-map, "a200");
 $green-a400-color: map-get($green-map, "a400");
 $green-a700-color: map-get($green-map, "a700");
 
-/*  Light Green
------------------------------------------*/
+// Light Green
+//-----------------------------------------
 
 $light-green-map: (
   "50"  : #F1F8E9,
@@ -387,8 +396,8 @@ $light-green-a200-color: map-get($light-green-map, "a200");
 $light-green-a400-color: map-get($light-green-map, "a400");
 $light-green-a700-color: map-get($light-green-map, "a700");
 
-/*  Lime
------------------------------------------*/
+// Lime
+//-----------------------------------------
 
 $lime-map: (
   "50"  : #F9FBE7,
@@ -422,8 +431,8 @@ $lime-a200-color: map-get($lime-map, "a200");
 $lime-a400-color: map-get($lime-map, "a400");
 $lime-a700-color: map-get($lime-map, "a700");
 
-/*  Yellow
------------------------------------------*/
+// Yellow
+//-----------------------------------------
 
 $yellow-map: (
   "50"  : #FFFDE7,
@@ -457,8 +466,8 @@ $yellow-a200-color: map-get($yellow-map, "a200");
 $yellow-a400-color: map-get($yellow-map, "a400");
 $yellow-a700-color: map-get($yellow-map, "a700");
 
-/*  Amber
------------------------------------------*/
+// Amber
+//-----------------------------------------
 
 $amber-map: (
   "50"  : #FFF8E1,
@@ -492,8 +501,8 @@ $amber-a200-color: map-get($amber-map, "a200");
 $amber-a400-color: map-get($amber-map, "a400");
 $amber-a700-color: map-get($amber-map, "a700");
 
-/*  Orange
------------------------------------------*/
+// Orange
+//-----------------------------------------
 
 $orange-map: (
   "50"  : #FFF3E0,
@@ -527,8 +536,8 @@ $orange-a200-color: map-get($orange-map, "a200");
 $orange-a400-color: map-get($orange-map, "a400");
 $orange-a700-color: map-get($orange-map, "a700");
 
-/*  Deep Orange
------------------------------------------*/
+// Deep Orange
+//-----------------------------------------
 
 $deep-orange-map: (
   "50"  : #FBE9E7,
@@ -562,8 +571,8 @@ $deep-orange-a200-color: map-get($deep-orange-map, "a200");
 $deep-orange-a400-color: map-get($deep-orange-map, "a400");
 $deep-orange-a700-color: map-get($deep-orange-map, "a700");
 
-/*  Brown
------------------------------------------*/
+// Brown
+//-----------------------------------------
 
 $brown-map: (
   "50"  : #EFEBE9,
@@ -589,8 +598,8 @@ $brown-700-color : map-get($brown-map, "700");
 $brown-800-color : map-get($brown-map, "800");
 $brown-900-color : map-get($brown-map, "900");
 
-/*  Grey
------------------------------------------*/
+// Grey
+//-----------------------------------------
 
 $grey-map: (
   "50"  : #FAFAFA,
@@ -616,8 +625,8 @@ $grey-700-color : map-get($grey-map, "700");
 $grey-800-color : map-get($grey-map, "800");
 $grey-900-color : map-get($grey-map, "900");
 
-/*  Blue Grey
------------------------------------------*/
+// Blue Grey
+//-----------------------------------------
 
 $blue-grey-map: (
   "50"  : #ECEFF1,
@@ -643,8 +652,8 @@ $blue-grey-700-color : map-get($blue-grey-map, "700");
 $blue-grey-800-color : map-get($blue-grey-map, "800");
 $blue-grey-900-color : map-get($blue-grey-map, "900");
 
-/*  Black & White
------------------------------------------*/
+// Black & White
+//-----------------------------------------
 
 $black-white-map: (
   "black": #000000,
