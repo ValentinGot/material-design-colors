@@ -10,7 +10,7 @@ Provides quick color palettes for [Sass](http://sass-lang.com/) and [Less](http:
 
 You may install this module via bower or npm.
 
-```
+``` console
 $ bower install material-design-colors
 $ npm install material-design-colors
 ```
