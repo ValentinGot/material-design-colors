@@ -15,7 +15,50 @@ $ npm install material-design-colors
 
 ## Quick use
 
+### Sass
 
+To use the Sass variables, you can import the **colors** utils like this:
+
+``` sass
+@import 'material-design-colors/colors'
+
+.btn {
+    color: $white-color;
+    background-color: $red-500-color;
+}
+```
+
+### Less
+
+To use the Less variables, you can import the **colors** utils like this:
+
+``` less
+@import 'material-design-colors/colors'
+
+.btn {
+    color: @white-color;
+    background-color: @red-500-color;
+}
+```
+
+### Classes
+
+To use the CSS classes variables, you can import the **dist/material-design.min.css** CSS in your html.
+There is two different set of CSS classes :
+* The ones made to change the **color** attribute (.{color}-{accent}-cl)
+* The ones made to change the **background-color** attribute (.{color}-{accent}-bg)
+
+``` html
+<html>
+    <head>
+        <link rel="stylesheet" href="material-design-colors/dist/material-design.min.css" />
+    </head>
+    
+    <body>
+        <button class="white-cl red-50-bg">Material design colors</button>
+    </body>
+</html>
+```
 
 ## License
 
