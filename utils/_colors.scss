@@ -620,20 +620,16 @@ $grey-900-color : map-get($grey-map, "900");
 -----------------------------------------*/
 
 $blue-grey-map: (
-  "50"  : #FFEBEE,
-  "100" : #FFCDD2,
-  "200" : #EF9A9A,
-  "300" : #E57373,
-  "400" : #EF5350,
-  "500" : #F44336,
-  "600" : #E53935,
-  "700" : #D32F2F,
-  "800" : #C62828,
-  "900" : #B71C1C,
-  "a100": #FF8A80,
-  "a200": #FF5252,
-  "a400": #FF1744,
-  "a700": #D50000
+  "50"  : #ECEFF1,
+  "100" : #CFD8DC,
+  "200" : #B0BEC5,
+  "300" : #90A4AE,
+  "400" : #78909C,
+  "500" : #607D8B,
+  "600" : #546E7A,
+  "700" : #455A64,
+  "800" : #37474F,
+  "900" : #263238
 );
 
 $blue-grey-50-color  : map-get($blue-grey-map, "50");
@@ -646,10 +642,6 @@ $blue-grey-600-color : map-get($blue-grey-map, "600");
 $blue-grey-700-color : map-get($blue-grey-map, "700");
 $blue-grey-800-color : map-get($blue-grey-map, "800");
 $blue-grey-900-color : map-get($blue-grey-map, "900");
-$blue-grey-a100-color: map-get($blue-grey-map, "a100");
-$blue-grey-a200-color: map-get($blue-grey-map, "a200");
-$blue-grey-a400-color: map-get($blue-grey-map, "a400");
-$blue-grey-a700-color: map-get($blue-grey-map, "a700");
 
 /*  Black & White
 -----------------------------------------*/
