@@ -566,20 +566,16 @@ $deep-orange-a700-color: map-get($deep-orange-map, "a700");
 -----------------------------------------*/
 
 $brown-map: (
-  "50"  : #FFEBEE,
-  "100" : #FFCDD2,
-  "200" : #EF9A9A,
-  "300" : #E57373,
-  "400" : #EF5350,
-  "500" : #F44336,
-  "600" : #E53935,
-  "700" : #D32F2F,
-  "800" : #C62828,
-  "900" : #B71C1C,
-  "a100": #FF8A80,
-  "a200": #FF5252,
-  "a400": #FF1744,
-  "a700": #D50000
+  "50"  : #EFEBE9,
+  "100" : #D7CCC8,
+  "200" : #BCAAA4,
+  "300" : #A1887F,
+  "400" : #8D6E63,
+  "500" : #795548,
+  "600" : #6D4C41,
+  "700" : #5D4037,
+  "800" : #4E342E,
+  "900" : #3E2723
 );
 
 $brown-50-color  : map-get($brown-map, "50");
@@ -592,10 +588,6 @@ $brown-600-color : map-get($brown-map, "600");
 $brown-700-color : map-get($brown-map, "700");
 $brown-800-color : map-get($brown-map, "800");
 $brown-900-color : map-get($brown-map, "900");
-$brown-a100-color: map-get($brown-map, "a100");
-$brown-a200-color: map-get($brown-map, "a200");
-$brown-a400-color: map-get($brown-map, "a400");
-$brown-a700-color: map-get($brown-map, "a700");
 
 /*  Grey
 -----------------------------------------*/
