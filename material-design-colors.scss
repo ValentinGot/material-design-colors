@@ -61,3 +61,11 @@
 
 // Blue Grey
 @include generate-classes('blue-grey', $blue-grey-map);
+
+// Black
+.black-cl { color: $black-color; }
+.black-bg { background-color: $black-color; }
+
+// White
+.white-cl { color: $white-color; }
+.white-bg { background-color: $white-color; }
