@@ -1,5 +1,7 @@
 # [Google Material Design color palette](https://github.com/ValentinGot/material-design-colors)
 
+[![npm version](https://badge.fury.io/js/material-design-colors.svg)](https://badge.fury.io/js/material-design-colors)
+
 > The [Google Material Design](https://www.google.com/design/spec/style/color.html) color palette for Sass and Less
 
 Provides quick color palettes for [Sass](http://sass-lang.com/) and [Less](http://lesscss.org/) projects.
