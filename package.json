@@ -1,0 +1,26 @@
+{
+  "name": "material-design-colors",
+  "version": "1.0.0",
+  "description": "The Google Material Design color palette for Sass and Less",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ValentinGot/material-design-colors.git"
+  },
+  "keywords": [
+    "Sass",
+    "Less",
+    "Material Design",
+    "color",
+    "color palette"
+  ],
+  "author": "Valentin GOT",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ValentinGot/material-design-colors/issues"
+  },
+  "homepage": "https://github.com/ValentinGot/material-design-colors#readme"
+}
