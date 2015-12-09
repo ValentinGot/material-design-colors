@@ -3,7 +3,6 @@
 var gulp = require('gulp'),
     rename = require('gulp-rename'),
     sass = require('gulp-ruby-sass'),
-    autoprefixer = require('gulp-autoprefixer'),
     minifycss = require('gulp-minify-css'),
     sourcemaps = require('gulp-sourcemaps'),
     del = require('del');
